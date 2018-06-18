@@ -13,10 +13,10 @@ import org.json.JSONObject;
  */
 public class ServiceResponse {
 
-	int status;
-	String data;
-	JSONObject objData;
-	JSONArray arrData;
+	public static int status;
+	public static String data;
+	public static JSONObject objData;
+	public static JSONArray arrData;
 
 	public String getResponse() {
 		StringBuilder sb = new StringBuilder();
