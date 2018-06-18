@@ -15,10 +15,10 @@ import org.json.JSONObject;
 
 public class ServiceResponse {
 	
- public static int status = 0;
- public static String data = null;
- public static JSONObject objData = null;
- public static JSONArray arrData = null;
+ int status = 0;
+ String data = null;
+ JSONObject objData = null;
+ JSONArray arrData = null;
 
 
 	public String getResponse() {
