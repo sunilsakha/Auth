@@ -68,8 +68,8 @@ public class UserEntity implements Serializable {
 
 	private int zip;
 
-	public UserEntity() {
-	}
+	//public UserEntity() {
+	//}
 
 	public int getUserId() {
 		return this.userId;
