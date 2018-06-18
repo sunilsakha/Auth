@@ -41,8 +41,8 @@ public class OAuthConfiguration extends AuthorizationServerConfigurerAdapter {
 	@Autowired
 	private AuthenticationManager authenticationManager;
 
-	@Value("classpath:schema.sql")
-	private Resource schemaScript;
+	//@Value("classpath:schema.sql")
+	//private Resource schemaScript;
 
 	@Value("classpath:config.oauth2.privateKey")
 	private String privateKey;
