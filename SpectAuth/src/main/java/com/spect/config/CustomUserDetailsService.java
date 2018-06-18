@@ -37,7 +37,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 		// Find by username
 		try {
 			SpUserEntity userEntity = userRepository.findByPhMobileOrLoginNameOrEmailId(username, username , username);
-			if (!(userEntity == null)) {
+			if (userEntity != null) {
 
 				String role = userEntity.getUserType() == 1 ? Constants.DOCTER : Constants.ADMIN;
 
