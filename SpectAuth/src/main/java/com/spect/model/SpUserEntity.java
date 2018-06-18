@@ -69,8 +69,8 @@ public class SpUserEntity implements Serializable {
 
 	private int zip;
 
-	public SpUserEntity() {
-	}
+	//public SpUserEntity() {
+	//}
 
 	public int getUserId() {
 		return this.userId;
