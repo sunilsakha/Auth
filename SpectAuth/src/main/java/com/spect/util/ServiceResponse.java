@@ -11,12 +11,15 @@ import org.json.JSONObject;
  * @author Pradeep
  * 
  */
-public class ServiceResponse {
 
-	 int status = 0;
-	 String data = null;
-	 JSONObject objData = null;
-	 JSONArray arrData = null;
+
+public class ServiceResponse {
+	
+ public static int status = 0;
+ public static String data = null;
+ public static JSONObject objData = null;
+ public static JSONArray arrData = null;
+
 
 	public String getResponse() {
 		StringBuilder sb = new StringBuilder();
