@@ -47,8 +47,8 @@ public class OAuthConfiguration extends AuthorizationServerConfigurerAdapter {
 	@Value("classpath:config.oauth2.privateKey")
 	private String privateKey;
 
-	@Value("classpath:config.oauth2.publicKey")
-	private String publicKey;
+	//@Value("classpath:config.oauth2.publicKey")
+	//private String publicKey;
 
 	// @Autowired
 	// private CustomUserDetailsService userDetailsService;
